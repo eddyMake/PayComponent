@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		2E26B25A92A2315F5C55D1ED /* Pods-PayComponent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayComponent_Tests.release.xcconfig"; path = "Target Support Files/Pods-PayComponent_Tests/Pods-PayComponent_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3F510C10E74ACB433C73E500 /* PayComponent.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PayComponent.podspec; path = ../PayComponent.podspec; sourceTree = "<group>"; };
+		3F510C10E74ACB433C73E500 /* PayComponent.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PayComponent.podspec; path = ../PayComponent.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4D981E3AE8BA6D716501E4BF /* Pods_PayComponent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayComponent_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* PayComponent_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayComponent_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,9 +63,9 @@
 		70A3BA0DCFDAACEFA01CB13F /* Pods-PayComponent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayComponent_Example.release.xcconfig"; path = "Target Support Files/Pods-PayComponent_Example/Pods-PayComponent_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A1D9BCFD1B59F36EC6952DD1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A1D9BCFD1B59F36EC6952DD1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BCCCC1C360A2DE7F2E2FAABA /* Pods-PayComponent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayComponent_Example.debug.xcconfig"; path = "Target Support Files/Pods-PayComponent_Example/Pods-PayComponent_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		ED4DDBF8B1910CEF818634EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		ED4DDBF8B1910CEF818634EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FB9319832E81B286569720F2 /* Pods_PayComponent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayComponent_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				62088E872BA81EC9406DB3C7 /* Pods-PayComponent_Tests.debug.xcconfig */,
 				2E26B25A92A2315F5C55D1ED /* Pods-PayComponent_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

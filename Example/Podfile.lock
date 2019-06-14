@@ -1,0 +1,16 @@
+PODS:
+  - PayComponent (0.1.0)
+
+DEPENDENCIES:
+  - PayComponent (from `../`)
+
+EXTERNAL SOURCES:
+  PayComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PayComponent: cccf2fbc98ee1430b7bb9c4f7a5d055b1b3f9e44
+
+PODFILE CHECKSUM: 66c3ce50f340f070de7c2db0f8d8b6e8130a2f35
+
+COCOAPODS: 1.7.2

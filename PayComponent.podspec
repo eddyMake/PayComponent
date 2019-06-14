@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PayComponent'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of PayComponent.'
+  s.version          = '0.0.1'
+  s.summary          = '支付组件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+            微信支付，支付宝支付组件
                        DESC
 
   s.homepage         = 'https://github.com/eddyMake/PayComponent'
@@ -37,6 +37,7 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'Foundation'
+  s.dependency 'WechatOpenSDK'
+  s.dependency 'AlipaySDK-iOS'
 end
